@@ -1,15 +1,17 @@
-.hero{
-    background-image:url(
-    "/imagenes/descarga.jpg");
+.hero {
+    background-image: url("/imagenes/descarga.jpg");
     background-position: center;
     height: 350px;
     position: relative;
-    
+    background-size: cover;
+
 }
-.body{
- font-family: Arial, Helvetica, sans-serif;
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
 }
-.hero-title{
+
+.hero-title {
     color: aliceblue;
     position: absolute;
     top: 0;
@@ -17,7 +19,8 @@
     font-size: 35px;
     margin-right: 28px;
 }
-.hero-text{
+
+.hero-text {
     position: absolute;
     bottom: 0%;
     left: 0;
@@ -27,14 +30,162 @@
     color: white;
     margin-left: 20px;
 }
-.hero-section{
-    
+
+.hero-section {
+
     background-position: center;
-    height: 350px;
+    height: 400px;
     position: relative;
-    background-color:#7299FE;
-    ;
+    background-color: #7299FE;
+    margin-top: 0;
+}
+
+.sobremi-texto {
+
+    text-align: center;
+    color: #1D06A7;
+    margin-top: 0px;
+}
+
+.sobremi-parrafo {
+
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: #F8F8F8;
+    margin: 38px;
+}
+
+.boton {
+    width: 187px;
+    height: 62px;
+    margin: 38px;
+    margin-top: 3px;
+    border-radius: 20px;
+    background-color: #D16FFF;
+    border-color: #D16FFF;
+
+}
+
+.skills-texto {
+    margin-top: 0px;
+    color: #26CC4B;
+    text-align: center;
+}
+
+.skill-section {
+    background-position: center;
+    height: 400px;
+    position: relative;
+    background-color: #9022FF;
+    margin-top: 0;
+}
+
+.wrapper-mis-skills {
+
+    column-count: 2;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.content1 {
+    color: #F8F8F8;
+}
+
+.progres {
+    height: 30px;
+}
+
+.portafolio {
+    height: 700px;
+    position: relative;
+    background-color: #FFD233;
+    margin-top: 0;
+    align-items: center;
+}
+
+.portafolio-texto {
+    margin-top: 0px;
+    color: #00AD84;
+    text-align: center;
+
+}
+
+.wrapper-mi-portafolio {
+
+    column-count: 4;
+    text-align: center;
+    line-height: 80px;
+    margin-left: 20px;
+}
+
+.clientes {
+
+    text-align: center;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    background-color: #9022FF;
+
+}
+
+.clientes-text {
+    margin-top: 0px;
+    color: #3F4E62;
+    text-align: center;
+}
+
+.wrap-clientes {
+    column-count: 4;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.contacto {
+    height: clamp(200px, 100vw, 100vh);
+    border-color: #1687A0;
+    background-position: center;
+    position: relative;
+    background-color: #1687A0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacto-titulo {
+
+    color: #FF1B1B;
+    text-align: center;
+}
+
+.wrapper-contacto form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    gap: 15px;
+    padding: 10%;
+}
+
+.texto {
+
+    justify-items: stretch;
+    gap: 15px;
+    padding: 10%;
+
 
 }
 
 
+.boton2 {
+
+    width: 187px;
+    height: 62px;
+    align-self: center;
+    margin-top: 3px;
+    background-color: #233451;
+    border-color: #233451;
+
+
+}
