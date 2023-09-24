@@ -1,0 +1,40 @@
+.hero{
+    background-image:url(
+    "/imagenes/descarga.jpg");
+    background-position: center;
+    height: 350px;
+    position: relative;
+    
+}
+.body{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.hero-title{
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 35px;
+    margin-right: 28px;
+}
+.hero-text{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+
+    background-color: blue;
+    padding: 18px;
+    color: white;
+    margin-left: 20px;
+}
+.hero-section{
+    
+    background-position: center;
+    height: 350px;
+    position: relative;
+    background-color:#7299FE;
+    ;
+
+}
+
+
